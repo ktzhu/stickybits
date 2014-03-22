@@ -1,28 +1,27 @@
 var grafs = document.getElementsByTagName('p')
+var phrases = {
+  sext: 'sexting app',
+  tech: 'technology driven',
+  time: 'this is our time',
+  matters: 'something that matters'
+}
+
+var quotes = {
+  sext: [],
+  tech: [],
+  time: [],
+  matters: []
+}
+
+var quoteGrafMap = {
+  sext: {grafNum: 0, quoteIdx: 0},
+  tech: {grafNum: 0, quoteIdx: 0},
+  time: {grafNum: 0, quoteIdx: 0},
+  matters: {grafNum: 0, quoteIdx: 0}
+}
 
 $.getJSON('data', function (data) {
   var statuses = data.statuses
-
-  var phrases = {
-    sext: 'sexting app',
-    tech: 'technology driven',
-    time: 'this is our time',
-    matters: 'something that matters'
-  }
-
-  var quotes = {
-    sext: [],
-    tech: [],
-    time: [],
-    matters: []
-  }
-
-  var quoteGrafMap = {
-    sext: {grafNum: 0, quoteIdx: 0},
-    tech: {grafNum: 0, quoteIdx: 0},
-    time: {grafNum: 0, quoteIdx: 0},
-    matters: {grafNum: 0, quoteIdx: 0}
-  }
 
   for (var i = 0; i < statuses.length; i++) {
     var tweet = statuses[i]
@@ -51,20 +50,47 @@ $.getJSON('data', function (data) {
     }
   }
 
-  console.log(quoteGrafMap)
-  window.quoteGrafMap = quoteGrafMap
-
   for (key in quoteGrafMap) {
     var grafNum = quoteGrafMap[key].grafNum
     var quoteIdx = quoteGrafMap[key].quoteIdx
     var grafNode = grafs[grafNum]
     var grafText = grafNode.innerHTML
 
-    var highlight = "<span class='highlight user'>" + phrases[key] + "</span>"
+    // highlight quote
+    var highlight = "<span data-phrase='" + key + "' class='highlight user'>" + phrases[key] + "</span>"
     var newGraf = replaceBetween(quoteIdx, quoteIdx + phrases[key].length, grafText, highlight)
     grafNode.innerHTML = newGraf
+
   }
+
+  paintFaces()
 })
+
+
+var paintFaces = function () {
+  console.log('paint faces')
+    // paint faces
+    var template = $("aside.rail");
+
+    var key
+    $('.highlight').each(function (idx) {
+      $highlight = $(this)
+      toAppend = template.clone();
+      $highlight.parent().after(toAppend);
+      $(toAppend).offset({ top: $highlight.offset().top - 50 });
+
+      key = $highlight[0].getAttribute('data-phrase')
+    });
+
+    var $profiles = $('.rail .profiles div');
+
+    $profiles.each(function (index, profile) {
+      console.log(key, index)
+      if (quotes[key][index]) {
+        $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")");
+      }
+    })
+}
 
 var replaceBetween = function (start, end, initText, newText) {
   return initText.substring(0, start) + newText + initText.substring(end)
