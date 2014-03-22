@@ -5,13 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StickyBits | Design-athon project of Team Pink</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css" />
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,200|Titillium+Web:700,400' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-
-  <script src="/js/vendor/modernizr.js"></script>
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
   <div class="fixed">
@@ -30,20 +25,9 @@
           <li class="divider"></li>
           <li><a href="http://www.linkedin.com/pub/kevin-poist/3a/812/a36"><i class="fa fa-linkedin fa-lg"></i></a></li>
           <li class="divider"></li>
-<!--           <li><a href="mailto:kevin@eversco.com"><i class="fa fa-envelope fa-lg"></i></a></li> -->
         </ul>
       </section>
     </nav>
-  </div>
-
-
-  <div class="row">
-    <div class="large-8 columns">
-      <h5>Magazine</h5>
-    </div>
-    <div class="large-4 columns">
-      <h5 class="subheader">361 Comments</h5>
-    </div>
   </div>
   <div class="row">
     <div class="large-12 columns">
@@ -65,10 +49,10 @@
 
       <p>The Cisco Meraki office in Mission Bay, San Francisco, is 40 paces from the water, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. Twelve months earlier, in a deal meant to bring fresh edge to Cisco, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise â€” starting with the d&eacute;cor.</p>
 
-      <p>Like Cisco, Meraki makes networking equipment â€” routers, wireless devices and the software to manage them, the sorts of products that even by tech standards have always been a little short on glamour. When Biswas and his co-founders left their graduate programs at M.I.T. in 2006 to work full time on Meraki â€” the name comes from a Greek word that means creating something with passion â€” they had few start-up competitors among their peers, who were making Twitter knockoffs. Six years later, their company had become a formidable player in the midsize router market. In a field notorious for opaque technical standards, Meraki emphasized simplicity and ease of use, while also managing to tick a lot of boxes on any Web 2.0 checklist: cloud-based, scalable, mobile-friendly. â€œThey're buzzwords," Biswas said. â€œBut they're also true." You don't need a SWAT team of technicians to set up a Meraki router; the system is intuitive and well designed, qualities that are especially appealing to a company like Cisco, which has dominated networking for three decades but has struggled in recent years to maintain its air of leading-edge inevitability.</p>
+      <p>Like Cisco, Meraki makes networking equipment â€” routers, wireless devices and the software to manage them, the sorts of products that even by tech standards have always been a little short on glamour. When Biswas and his co-founders left their graduate programs at M.I.T. in 2006 to work full time on Meraki â€” the name comes from a Greek word that means creating something with passion â€” they had few start-up competitors among their peers, who were making <span class="highlight">Twitter knockoffs</span>. Six years later, their company had become a formidable player in the midsize router market. In a field notorious for opaque technical standards, Meraki emphasized simplicity and ease of use, while also managing to tick a lot of boxes on any Web 2.0 checklist: cloud-based, scalable, mobile-friendly. â€œThey're buzzwords," Biswas said. â€œBut they're also true." You don't need a SWAT team of technicians to set up a Meraki router; the system is intuitive and well designed, qualities that are especially appealing to a company like Cisco, which has dominated networking for three decades but has struggled in recent years to maintain its air of leading-edge inevitability.</p>
       <p>The same dynamic is playing out throughout Silicon Valley, as companies like Intel post disappointing earnings reports and others like Snapchat turn down billion-dollar offers. The rapid consumer-ification of tech, led by Facebook and Google, has created a deep rift between old and new, hardware and software, enterprise companies that sell to other businesses and consumer companies that sell directly to the masses. On their face, these cleavages seem to be part of the natural order. As Biswas pointed out, â€œThere has always been a constant churn of new companies coming in, old companies dying out."</p>
-      <p >But the churn feels more problematic now, in part because it deprives the new guard as well as the old â€” and by extension, it deprives us all. In pursuing the latest and the coolest, young engineers ignore opportunities in less-sexy areas of tech like semiconductors, data storage and networking, the products that form the foundation on which all of Web 2.0 rests. Without a good router to provide reliable Wi-Fi, your Dropbox file-sharing application is not going to sync; without Nvidia's graphics processing unit, your BuzzFeed GIF is not going to make anyone laugh. The talent â€” and there's a ton of it â€” flowing into Silicon Valley cares little about improving these infrastructural elements. What they care about is coming up with more web apps.</p>
-      <p>As an enterprise start-up, Meraki has been impeded by its distance from the web scene. It simply does not have the same recognition as a consumer company whose products users (and potential recruits) interact with every day. â€œYou say, "I work at Pinterest,' and people know what that is â€” they use Pinterest," Biswas said. â€œYou tell them you work at Meraki, and they're a little more reserved. They're like, "What's that?' Once we explained our culture and our approach, we were able to hire great talent, but it's always a challenge." Since the acquisition, Biswas, who is 32, has fought to retain the spirit of the vanguard, but his struggle reveals an implicit fear â€” that young engineers might be willing to work at Meraki but not at Cisco (because it's too big and fusty), or that clients might be willing to buy from Cisco but not Meraki (because they don't really trust start-ups).</p>
+      <p >But the churn feels more problematic now, in part because it deprives the new guard as well as the old â€” and by extension, it deprives us all. In pursuing the latest and the coolest, young engineers ignore opportunities in less-sexy areas of tech like semiconductors, data storage and networking, the <span class="highlight high">products</span> that form the foundation on which all of Web 2.0 rests. Without a good router to provide reliable Wi-Fi, your Dropbox file-sharing application is not going to sync; without Nvidia's graphics processing unit, your BuzzFeed GIF is not going to make anyone laugh. The talent â€” and there's a ton of it â€” flowing into Silicon Valley cares little about improving these infrastructural elements. What they care about is coming up with more web apps.</p>
+      <p>As an enterprise start-up, Meraki has been impeded by its distance from the web scene. It simply does not have the same recognition as a consumer company whose products users (and potential recruits) interact with every day. â€œYou say, "I work at Pinterest,' and people know what that is â€” they use Pinterest," Biswas said. â€œYou tell them you work at Meraki, and they're a little more reserved. They're like, "What's that?' Once we explained our culture and our approach, we were able to hire great talent, but it's always a challenge." Since the acquisition, Biswas, who is 32, has <span class="highlight">fought to retain the</span> spirit of the vanguard, but his struggle reveals an implicit fear â€” that young engineers might be willing to work at Meraki but not at Cisco (because it's too big and fusty), or that clients might be willing to buy from Cisco but not Meraki (because they don't really trust start-ups).</p>
       <p>What's cool? Who can be trusted? Why does one start-up go public, while another, which seems to do the same thing, fizzles? What logic, if any, pertains to where the money flows? These are the anxious questions that pervade Silicon Valley now, I think, more than ever â€” the vague sense of a frenzied bubble of app-making and an even vaguer dread that what we are making might not be that meaningful.</p>
       <p><strong>Smart Kids and Their Sexting Apps</strong></p>
       <p>The backlash in recent months against the self-involvement and frivolity of the new guard has actually been a long time coming. Instagram photos of opulent tech holiday parties have been lambasted, Google buses blockaded. It's something I wrestle with myself. Back in November, I signed on for an internship this summer at Uber, the taxi-app-turned-transportation-logistics company that is one of the valley's hottest start-ups. Last August, it raised $258 million and was valued at about $3.5 billion; this winter, it partnered with Xbox and Bud Light for Super Bowl promotions. Uber's clashes with various municipal authorities have been reported on with the kind of glee usually reserved for philandering politicians.</p>
@@ -128,14 +112,34 @@
       <p>I'm not sure that they were convinced. But there is no doubt that, regardless, young talent will keep flocking to the valley. Some of us will continue to make the web products that have generated such vast wealth and changed the way we think, interact, protest. But hopefully, others among us will go to work on tech's infrastructure, bringing the spirit of the new guard into the old. Several summers ago, I interned at Cisco in software engineering and never really considered going back. But in December, as Biswas and I wrapped up our interview, I was tempted to add one more thing: I wanted to ask for a job.</p>
     </div>
     </div>
+
+    <aside class="rail">
+      {{> list }}
+      <div class="following">
+        <div class="profiles">
+          <div></div>
+          <div></div>
+          <div class="count"><span>45</span></div>
+        </div>
+        <p><strong>Yuri Victor</strong>, <strong>Joey Marburger</strong> and 45 other people you follow on Twitter tweeted about this</p>
+        <!-- TODO: MAKE FONT AWESOME WORK -->
+        <div class="social-share">
+          <a class="fb">&#xf082;</a>
+          <a class="twitter"></a>
+          <a class="mail"></a>
+          <a class="more">MORE</a>
+        </div>
+      </div>
+      <!-- <div class="stats">
+        <div class="tweet-count"><span>1 Tweet</span></div>
+        <div class="retweet-count"><span>1 Retweet</span></div>
+        <div class="fav-count"><span>1 Fav Count</span></div>
+        <div class="reply-count"><span>1 Reply Count</span></div>
+      </div> -->
+    </aside>
   </div>
-
-
-
-
-<script src="/js/vendor/jquery.js"></script>
-<script src="/js/vendor/fastclick.js"></script>
-<script src="/js/foundation.min.js"></script>
-
+  
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="/javascripts/index.js"></script>
 </body>
 </html>
