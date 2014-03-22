@@ -63,7 +63,7 @@ h5 {
 	color: #000; }
 
 .top-bar .name h1 a:before {
-    background-image: url('../../public/img/sluicelogo.png');
+    background-image: url('../img/sluicelogo.png');
     background-repeat: no-repeat;
     content: "";
     display: inline-block;
