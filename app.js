@@ -8,6 +8,7 @@ var bodyParser = require('body-parser')
 var fs = require('fs')
 
 var routes = require('./routes')
+var stories = require('./routes/story')
 var users = require('./routes/user')
 
 var longUrlFile = 'longUrl.json'
@@ -29,7 +30,11 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(app.router)
 
 app.get('/', routes.index)
+
+app.get('/story', stories.index)
+
 app.get('/users', users.list)
+
 app.get('/data', function (req, res) {
   var dataType = req.query.type || ''
   var fileToRead
