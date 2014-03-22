@@ -51,6 +51,9 @@ h5 {
 	color: #fff; 
 	text-align: center; }
 
+.highlight {
+	background-color: #FFF;
+}
 .top-bar {
 	opacity: .95; 
 	color: #000; }

@@ -5,7 +5,14 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>yaaaaa {{ title }}</p>
+
+    <article class="main">
+      <h1>{{ title }}</h1>
+      <p>yaaaaa {{ title }}</p>
+      <p>The Cisco Meraki office in Mission Bay, San Francisco, <span class="highlight">is 40 paces from the water</span>, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. <span class="highlight high">Twelve months earlier, in a deal meant to bring fresh edge to Cisco</span>, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise â€” starting with the d&eacute;cor.</p>
+    </article>
+    <aside class="rail">
+      <p>HELLO</p>
+    </aside>
   </body>
 </html>
