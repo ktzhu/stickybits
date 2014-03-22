@@ -85,32 +85,12 @@ var paintFaces = function (key) {
         var $profiles = $('.rail .profiles div');
 
         $profiles.each(function (index, profile) {
-          console.log(key, index)
           if (quotes[key][index]) {
             $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")");
           }
         })
       }
     }
-
-    // $('.highlight').each(function (idx) {
-    //   highlights[i] = $(this)
-    //   toAppend = template.clone();
-    //   toAppend[0].dataset.phrase = key
-    //   highlights[i].parent().after(toAppend);
-    //   $(toAppend).offset({ top: highlights[i].offset().top - 50 });
-
-    //   key = highlights[i][0].getAttribute('data-phrase')
-    // });
-
-    // var $profiles = $('.rail .profiles div');
-
-    // $profiles.each(function (index, profile) {
-    //   console.log(key, index)
-    //   if (quotes[key][index]) {
-    //     $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")");
-    //   }
-    // })
 }
 
 var replaceBetween = function (start, end, initText, newText) {
