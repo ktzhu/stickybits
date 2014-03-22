@@ -83,6 +83,8 @@ h5 {
 	padding: 1em 0 1em 0; }
 .header-img {
   background: url('http://static01.nyt.com/images/2014/03/10/magazine/mag-16Silicon/mag-16Silicon-master1050.png');
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 600px;
 }
 
@@ -90,13 +92,16 @@ h5 {
   margin-top: 20px;
 }
 
+.highlight.user {
+  background-color: rgba(255, 231, 32, 0.76);
+}
 
+.img-caption {
+  text-align: center;
+  margin-bottom: 25px;
+}
 
-
-
-
-
-
-
-
-
+.img-caption p {
+  margin: 2px 0 2px 0;
+  font-style: italic;
+}

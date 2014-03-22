@@ -11,9 +11,6 @@ var routes = require('./routes')
 var stories = require('./routes/story')
 var users = require('./routes/user')
 
-var longUrlFile = 'longUrl.json'
-var shortUrlFile = 'shortUrl.json'
-
 var app = express()
 
 // view engine setup
@@ -36,14 +33,7 @@ app.get('/story', stories.index)
 app.get('/users', users.list)
 
 app.get('/data', function (req, res) {
-  var dataType = req.query.type || ''
-  var fileToRead
-  if (dataType.indexOf('long') == -1) {
-    fileToRead = longUrlFile
-  } else {
-    fileToRead = shortUrlFile
-  }
-  var data = JSON.parse(fs.readFileSync(fileToRead, {encoding: 'utf-8'}))
+  var data = JSON.parse(fs.readFileSync('data.json', {encoding: 'utf-8'}))
   res.json(data)
 })
 
