@@ -3,8 +3,10 @@ $(function() {
   var template = $("aside.rail");
 
   $('.highlight').each(function(highlight) {
-    $highlight = $(this);
-    $highlight.parent().after(template.clone());
+    $highlight = $(this)
+    toAppend = template.clone();
+    $highlight.parent().after(toAppend);
+    $(toAppend).offset({ top: $highlight.offset().top - 50 });
   });
 
   $.ajax({
