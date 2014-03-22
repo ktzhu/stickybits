@@ -25,12 +25,30 @@
 
   .social-share {
     border: 1px solid @white;
+    font-size: 0;
+    margin: 0px;
 
-    a {
+    li {
       font-family: FontAwesome;
-      color: @black;
-      &:after {
-        content: "\f092";
+      font-size: 20px;
+      border: 1px solid @gray;
+      display: inline-block;
+      padding: 10px 20px;
+      color: @gray;
+      &.fb:before {
+        content: "\f082 ";
+      }
+
+      &.twitter:before {
+        content: "\f081 ";
+      }
+
+      &.mail:before {
+        content: "\f045 ";
+      }
+
+      &.more:before {
+        content: "\f055  More";
       }
     }
   }
