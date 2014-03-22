@@ -1,5 +1,4 @@
 var grafs = document.getElementsByTagName('p')
-window.grafs = grafs
 
 $.getJSON('data', function (data) {
   var statuses = data.statuses
