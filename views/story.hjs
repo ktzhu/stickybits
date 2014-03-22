@@ -5,7 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StickyBits | Design-athon project of Team Pink</title>
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/foundation.css">
   <link rel="stylesheet" href="stylesheets/app.css" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,200|Titillium+Web:700,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+
   <script src="/javascripts/vendor/modernizr.js"></script>
 </head>
 <body>
