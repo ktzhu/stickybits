@@ -24,12 +24,13 @@
       <section class="top-bar-section">
         <ul class="right">
           <li class="divider"></li>
-          <li><a href="https://twitter.com/snd"><i class="fa fa-twitter fa-lg"></i></a></li>
+          <li><a href="https://twitter.com/KevinPoist"><i class="fa fa-twitter fa-lg"></i></a></li>
           <li class="divider"></li>
-          <li><a href="https://https://www.facebook.com/groups/2391952279/"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+          <li><a href="https://www.facebook.com/pages/Kevin-Poist-Shaw-DC-Realtor/100214616803672"><i class="fa fa-facebook-square fa-lg"></i></a></li>
           <li class="divider"></li>
-          <li><a href="http://www.linkedin.com/groups/Society-News-Design-81049/about"><i class="fa fa-linkedin fa-lg"></i></a></li>
+          <li><a href="http://www.linkedin.com/pub/kevin-poist/3a/812/a36"><i class="fa fa-linkedin fa-lg"></i></a></li>
           <li class="divider"></li>
+<!--           <li><a href="mailto:kevin@eversco.com"><i class="fa fa-envelope fa-lg"></i></a></li> -->
         </ul>
       </section>
     </nav>
@@ -37,16 +38,20 @@
 
 
   <div class="row">
-    <div class="large-8 columns">
-      <h5>Magazine</h5></br>
-      <h2>Silicon Valley’s Youth Problem</h2></br>
-      <h4 class="subheader">In start-up land, the young barely talk to the old (and vice versa). That makes for a lot of cool apps. But great technology? Not so much.</h4>
-    </div>
-    <div class="large-4 columns">
-      <h5 class="subheader">361 Comments</h5>
+    <div class="large-8 large-offset-2 columns">
+      <h5>Magazine</h5>
     </div>
   </div>
-
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Silicon Valley’s Youth Problem</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h3 class="subheader">In start-up land, the young barely talk to the old (and vice versa). That makes for a lot of cool apps. But great technology? Not so much.</h3>
+    </div>
+  </div>
   <div class="row">
     <div class="header-img large-12 columns">
   </div>
@@ -59,14 +64,13 @@
   </div>
 
   <div class="content row">
-    <div class="large-8 columns">
+    <div class="large-8 large-offset-2 columns">
 
       <p>The Cisco Meraki office in Mission Bay, San Francisco, is 40 paces from the water, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. Twelve months earlier, in a deal meant to bring fresh edge to Cisco, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise — starting with the d&eacute;cor.</p>
 
       <p>Like Cisco, Meraki makes networking equipment — routers, wireless devices and the software to manage them, the sorts of products that even by tech standards have always been a little short on glamour. When Biswas and his co-founders left their graduate programs at M.I.T. in 2006 to work full time on Meraki — the name comes from a Greek word that means creating something with passion — they had few start-up competitors among their peers, who were making Twitter knockoffs. Six years later, their company had become a formidable player in the midsize router market. In a field notorious for opaque technical standards, Meraki emphasized simplicity and ease of use, while also managing to tick a lot of boxes on any Web 2.0 checklist: cloud-based, scalable, mobile-friendly. "They're buzzwords," Biswas said. "But they're also true." You don't need a SWAT team of technicians to set up a Meraki router; the system is intuitive and well designed, qualities that are especially appealing to a company like Cisco, which has dominated networking for three decades but has struggled in recent years to maintain its air of leading-edge inevitability.</p>
       <p>The same dynamic is playing out throughout Silicon Valley, as companies like Intel post disappointing earnings reports and others like Snapchat turn down billion-dollar offers. The rapid consumer-ification of tech, led by Facebook and Google, has created a deep rift between old and new, hardware and software, enterprise companies that sell to other businesses and consumer companies that sell directly to the masses. On their face, these cleavages seem to be part of the natural order. As Biswas pointed out, "There has always been a constant churn of new companies coming in, old companies dying out."</p>
       <p >But the churn feels more problematic now, in part because it deprives the new guard as well as the old — and by extension, it deprives us all. In pursuing the latest and the coolest, young engineers ignore opportunities in less-sexy areas of tech like semiconductors, data storage and networking, the products that form the foundation on which all of Web 2.0 rests. Without a good router to provide reliable Wi-Fi, your Dropbox file-sharing application is not going to sync; without Nvidia's graphics processing unit, your BuzzFeed GIF is not going to make anyone laugh. The talent — and there's a ton of it — flowing into Silicon Valley cares little about improving these infrastructural elements. What they care about is coming up with more web apps.</p>
-      <img src="http://static01.nyt.com/images/2014/03/10/magazine/mag-16Silicon_old1/mag-16Silicon_old1-articleLarge-v2.png">
       <p>As an enterprise start-up, Meraki has been impeded by its distance from the web scene. It simply does not have the same recognition as a consumer company whose products users (and potential recruits) interact with every day. "You say, "I work at Pinterest,' and people know what that is — they use Pinterest," Biswas said. "You tell them you work at Meraki, and they're a little more reserved. They're like, "What's that?' Once we explained our culture and our approach, we were able to hire great talent, but it's always a challenge." Since the acquisition, Biswas, who is 32, has fought to retain the spirit of the vanguard, but his struggle reveals an implicit fear — that young engineers might be willing to work at Meraki but not at Cisco (because it's too big and fusty), or that clients might be willing to buy from Cisco but not Meraki (because they don't really trust start-ups).</p>
       <p>What's cool? Who can be trusted? Why does one start-up go public, while another, which seems to do the same thing, fizzles? What logic, if any, pertains to where the money flows? These are the anxious questions that pervade Silicon Valley now, I think, more than ever — the vague sense of a frenzied bubble of app-making and an even vaguer dread that what we are making might not be that meaningful.</p>
       <p><strong>Smart Kids and Their Sexting Apps</strong></p>
@@ -85,7 +89,6 @@
       <p><strong>There's an App — and an A.P.I. — for That</strong></p>
       <p>All varieties of ambition head to Silicon Valley now — it can no longer be designated the sole domain of nerds like Steve Wozniak or even successor nerds like Mark Zuckerberg. The face of web tech today could easily be a designer, like Brian Chesky at Airbnb, or a magazine editor, like Jeff Koyen at Assignmint. Such entrepreneurs come from backgrounds outside computer science and are likely to think of their companies in terms more grandiose than their technical components. Chesky, for instance, has described Airbnb as a "community marketplace that connects people through unique spaces around the world" — a valid business model, but not one that necessarily depends on any particular technology.</p>
       <p>By contrast, Intel, founded by Gordon Moore and Robert Noyce, both physicists, began by building memory chips that were twice as fast as old ones. Sun Microsystems introduced a new kind of modular computer system, built by one of its founders, Andy Bechtolsheim. Their "big ideas" were expressed in physical products and grew out of their own technical expertise. In that light, Meraki, which came from Biswas's work at M.I.T., can be seen as having its origins in the old guard. And it followed what was for decades the highway that connected academia to industry: Grad students researched technology, powerful advisers brokered deals, students dropped out to parlay their technologies into proprietary solutions, everyone reaped the profits. That implicit guarantee of academia's place in entrepreneurship has since disappeared. Graduate students still drop out, but to start bike-sharing apps and become data scientists. That is, if they even make it to graduate school. The success of self-educated savants like Sean Parker, who founded Napster and became Facebook's first president with no college education to speak of, set the template. Enstitute, a two-year apprenticeship, embeds high-school graduates in plum tech positions. Thiel Fellowships, financed by the PayPal co-founder and Facebook investor Peter Thiel, give $100,000 to people under 20 to forgo college and work on projects of their choosing.</p>
-      <img src="http://static01.nyt.com/images/2014/03/16/magazine/mag-16Silicon_old2/mag-16Silicon_old2-articleLarge-v2.png">
       <p>Much of this precocity — or dilettantism, depending on your point of view — has been enabled by web technologies, by easy-to-use programming frameworks like Ruby on Rails and Node.js and by the explosion of application programming interfaces (A.P.I.s) that supply off-the-shelf solutions to entrepreneurs who used to have to write all their own code for features like a login system or an embedded map. Now anyone can do it, thanks to the Facebook login A.P.I. or the Google Maps A.P.I.</p>
       <p>One of the more enterprising examples of these kinds of interfaces is the start-up Stripe, which sells A.P.I.s that enable businesses to process online payments. When Meraki first looked into taking credit cards online, according to Biswas, it was a monthslong project fraught with decisions about security and cryptography. "Now, with Stripe, it takes five minutes," he said. "When you combine that with the ability to get a server in five minutes, with Rails and Twitter Bootstrap, you see that it has become infinitely easier for four people to get a start-up off the ground."</p>
       <p>The sense that it is no longer necessary to have particularly deep domain knowledge before founding your own start-up is real; that and the willingness of venture capitalists to finance Mark Zuckerberg look-alikes are changing the landscape of tech products. There are more platforms, more websites, more pat solutions to serious problems — here's an app that can fix drug addiction! promote fiscal responsibility! advance childhood literacy! Companies like Meraki that build enterprise-grade hardware and leverage years of research tend to be anomalies among the new guard. Even as the pool of founders has grown and diversified, the products themselves seem more homogeneous, more pedestrian.</p>
@@ -99,7 +102,6 @@
       <p>The latter source of frustration is the phenomenon of "the 10X engineer," an engineer who is 10 times more productive than average. It's a term that in its cockiness captures much of what's good, bad and impossible about the valley. At the start-ups I visit, Friday afternoons devolve into bouts of boozing and Nerf-gun wars. Signing bonuses at Facebook are rumored to reach the six digits. In a landscape where a product may morph several times over the course of a funding round, talent — and the ability to attract it — has become one of the few stable metrics.</p>
       <p>Yet for all the glitz and the glory and the newfound glamour, there is a surprising amount of angst in Silicon Valley. Which is probably inevitable when you put thousands of ambitious, talented young people together and tell them they're god's gift to technology. It's the angst of an early hire at a start-up that only he realizes is failing; the angst of a founder who raises $5 million for his company and then finds out an acquaintance from college raised $10 million; the angst of someone who makes $100,000 at 22 but is still afraid that he may not be able to afford a house like the one he grew up in.</p>
       <p>Tech is fun now, deliriously so, but this fun comes with a built-in anxiety that it must lead to more. As an engineer, coding should be your calling, not just a job, so you are expected to also do it in your time off. Interviewers will ask about side projects — a Firefox browser add-on maybe, or an Android version of your favorite iPhone app — which are supposed to indicate your overflowing enthusiasm for building software. Tech colloquialisms have permeated every aspect of life — hack your diet, your fitness, your dates — yet in reality, very little emphasis is placed on these activities. In a place with one of the best gender-ratios in the country for single women, female friends I talk to complain that most of the men are, in fact, not available; they are all busy working on their start-ups, or data-crunching themselves. They have prioritized self-improvement and careers over relationships.</p>
-      <img src="http://static01.nyt.com/images/2014/03/16/magazine/mag-16Silicon_young2/mag-16Silicon_young2-articleLarge-v2.png">
       <p>These choices, to insulate oneself, to make technology the central theme in your life, make some sense: The marketplace is competitive, and if you're not working on this or that potentially industry-disrupting idea, someone else will get there before you. But it breaks down when you begin to question whether or not your idea is actually industry-disrupting or, really, meaningful at all. I was asking a friend, a former computer-science major who now works for a hedge fund in New York, why he chose finance instead of tech. "There are so few start-ups that are doing things that are worthwhile to me," he said. I protested: "What about Facebook?" He looked at me, and I thought about it. No doubt, Facebook has changed the world. Facebook has made it easier to communicate, participate, pontificate, track down new contacts and vet romantic prospects. But in other moments, it has also made me nauseatingly jealous of my friends, even as I'm aware of its unreality. Everything on Facebook, like an Instagram photo, is experienced through a soft-glow filter. And for all the noise, the pinging notifications and flashing lights, you never really feel productive on Facebook. A couple of months ago, I installed a Google Chrome extension called "Kill News Feed," built by Neal Wu, a senior at Harvard who incidentally previously worked at the social network. Now when I absent-mindedly surf to Facebook.com, my News Feed is gloriously blank except for one line of text: "Don't get distracted by Facebook!" it says.</p>
       <p><strong>The Suddenly Cool Software Engineer</strong></p>
       <p>In the Mission District of San Francisco, long an enclave of working-class Latinos and hipsters, one-bedroom apartments now rent for $3,000 a month. Tech firms like Spotify and Rackspace have moved in nearby, and one evening this winter, I was in the area to visit the offices of Stripe, the online-payment-processing start-up, waiting to meet Jim Danz and his sister, Lisa.</p>

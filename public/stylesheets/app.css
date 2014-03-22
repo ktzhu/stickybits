@@ -95,8 +95,8 @@ h5 {
 .header-img {
   background: url('http://static01.nyt.com/images/2014/03/10/magazine/mag-16Silicon/mag-16Silicon-master1050.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 600px;
+  background-size: cover;
+  height: 800px;
 }
 
 .content {
