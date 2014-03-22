@@ -14,6 +14,27 @@
     </article>
     <aside class="rail">
       {{> list }}
+      <div class="following">
+        <div class="profiles">
+          <div></div>
+          <div></div>
+          <div class="count"><span>45</span></div>
+        </div>
+        <p><strong>Yuri Victor</strong>, <strong>Joey Marburger</strong> and 45 other people you follow on Twitter tweeted about this</p>
+        <!-- TODO: MAKE FONT AWESOME WORK -->
+        <div class="social-share">
+          <a class="fb">&#xf082;</a>
+          <a class="twitter"></a>
+          <a class="mail"></a>
+          <a class="more">MORE</a>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="tweet-count"><span>1 Tweet</span></div>
+        <div class="retweet-count"><span>1 Retweet</span></div>
+        <div class="fav-count"><span>1 Fav Count</span></div>
+        <div class="reply-count"><span>1 Reply Count</span></div>
+      </div>
     </aside>
   </body>
 </html>
