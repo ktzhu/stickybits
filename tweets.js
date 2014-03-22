@@ -17,10 +17,10 @@ console.log(process.env.TWITTER_CONSUMER_SECRET)
 console.log(process.env.TWITTER_ACCESS_KEY)
 console.log(process.env.TWITTER_ACCESS_SECRET)
 
-twitterClient.search(longUrl, function (data) {
+twitterClient.search(longUrl, {count: 100}, function (data) {
   fs.writeFileSync('longUrl.json', JSON.stringify(data))
 })
 
-twitterClient.search(shortUrl, function (data) {
+twitterClient.search(shortUrl, {count: 100}, function (data) {
   fs.writeFileSync('shortUrl.json', JSON.stringify(data))
 })
