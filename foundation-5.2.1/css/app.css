@@ -62,8 +62,7 @@ h5 {
 	opacity: .95; 
 	color: #000; }
 
-.top-bar .name h1{
-	.top-bar .name h1 a:before {
+.top-bar .name h1 a:before {
     background-image: url('../../public/img/sluicelogo.png');
     background-repeat: no-repeat;
     content: "";
@@ -71,7 +70,7 @@ h5 {
     height: 18px;
     padding-right: 20px;
     position: relative;
-    width: 18px;
+    width: 14px;
 }
 
 .top-bar-section ul li > a {
