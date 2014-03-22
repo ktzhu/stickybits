@@ -1,5 +1,11 @@
 $(function() {
   var twitterData = {};
+  var template = $("aside.rail");
+
+  $('.highlight').each(function(highlight) {
+    $highlight = $(this);
+    $highlight.parent().after(template.clone());
+  });
 
   $.ajax({
     type: "GET",
@@ -14,4 +20,5 @@ $(function() {
       $(profile).css("background-image","url("+twitterData[index+1].user.profile_background_image_url+")");
     })
   });
+
 });

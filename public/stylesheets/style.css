@@ -7993,6 +7993,8 @@ a {
 }
 .rail {
   font-family: 'Titillium Web', sans-serif;
+  position: absolute;
+  left: 700px;
 }
 .rail .profiles div {
   color: #ffffff;
