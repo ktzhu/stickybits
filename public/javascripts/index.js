@@ -5,7 +5,10 @@ $(function() {
   $('.highlight').each(function(highlight) {
     $highlight = $(this)
     toAppend = template.clone();
-    $highlight.parent().after(toAppend);
+    $highlight.after(toAppend);
+    $highlight.on('click',function() {
+      $(this).sibling('aside.rail').toggle();
+    });
     $(toAppend).offset({ top: $highlight.offset().top - 50 });
   });
 
@@ -22,5 +25,4 @@ $(function() {
       $(profile).css("background-image","url("+twitterData[index+1].user.profile_background_image_url+")");
     })
   });
-
 });
