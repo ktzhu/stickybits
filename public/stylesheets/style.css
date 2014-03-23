@@ -7970,6 +7970,9 @@ th.hide-for-touch {
 .fa-plus-square-o:before {
   content: "\f196";
 }
+.stuff {
+  margin-top: 90px;
+}
 .main {
   font-family: 'Droid Serif', serif;
 }
@@ -7977,7 +7980,10 @@ th.hide-for-touch {
   font-family: 'Titillium Web', sans-serif;
   position: absolute;
   width: 300px;
-  left: 950px;
+  left: 885px;
+}
+.rail .profiles {
+  text-align: center;
 }
 .rail .profiles div {
   color: #ffffff;

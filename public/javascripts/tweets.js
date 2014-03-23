@@ -3,21 +3,21 @@ var phrases = {
   sext: 'sexting app',
   tech: 'technology driven',
   time: 'this is our time',
-  matters: 'something that matters'
+  notSoMuch: 'In start-up land, the young (..) makes a lot of cool apps. But great technology? Not so much.',
 }
 
 var quotes = {
   sext: [],
   tech: [],
   time: [],
-  matters: []
+  notSoMuch: []
 }
 
 var quoteGrafMap = {
   sext: {grafNum: 0, quoteIdx: 0},
   tech: {grafNum: 0, quoteIdx: 0},
   time: {grafNum: 0, quoteIdx: 0},
-  matters: {grafNum: 0, quoteIdx: 0}
+  notSoMuch: {grafNum: 0, quoteIdx: 0}
 }
 
 $.getJSON('data', function (data) {
@@ -31,8 +31,8 @@ $.getJSON('data', function (data) {
       quotes.sext.push(tweet)
     } else if (tweetText.toLowerCase().indexOf(phrases.tech) != -1) {
       quotes.tech.push(tweet)
-    } else if (tweetText.toLowerCase().indexOf(phrases.matters) != -1) {
-      quotes.matters.push(tweet)
+    } else if (tweetText.toLowerCase().indexOf(phrases.notSoMuch) != -1) {
+      quotes.notSoMuch.push(tweet)
     } else if (tweetText.toLowerCase().indexOf(phrases.time) != -1) {
       quotes.time.push(tweet)
     }
@@ -98,7 +98,7 @@ var paintFaces = function (key) {
         })
 
         var $countWrap = $('.rail .names .count-wrap')
-        var $count = $('.rail .names .count')
+        var $count =  $('.rail .names .count')
         $count.each(function (index, count) {
           if (quotes[key].length - 3 > 0) {
             $($countWrap[index]).show()
@@ -107,6 +107,7 @@ var paintFaces = function (key) {
             $countWrap[index].innerHTML = 'tweeted about this.'
             $($countWrap[index]).show()
           }
+          console.log("OK?");
         })
       }
     }
