@@ -181,7 +181,7 @@
 <script src="/javascripts/vendor/jquery.js"></script>
 <script src="/javascripts/foundation.min.js"></script>
 <script src="/javascripts/tweets.js"></script>
-<script src="/javascripts/index.js"></script>
+<!-- <script src="/javascripts/index.js"></script> -->
 <script>
   $(document).foundation();
 </script>
