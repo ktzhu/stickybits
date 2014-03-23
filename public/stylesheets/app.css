@@ -16,6 +16,7 @@ h3.subheader {
   text-transform: uppercase;
   display:block;
   margin-bottom: 0px;
+  text-align:left;
 }
 
 p {
