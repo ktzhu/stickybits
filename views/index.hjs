@@ -142,9 +142,9 @@
           {{> list }}
           <div class="following">
             <div class="profiles">
-              <div class="faces"></div>
-              <div class="faces"></div>
-              <div class="faces"></div>
+              <a class="faces"></a>
+              <a class="faces"></a>
+              <a class="faces"></a>
             </div>
             <p class="names">
               <span class="name">Yuri Victor</span>,

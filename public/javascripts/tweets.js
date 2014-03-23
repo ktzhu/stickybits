@@ -87,7 +87,8 @@ var paintFaces = function (key) {
         var $profiles = $('.rail .profiles .faces');
         $profiles.each(function (index, profile) {
           if (quotes[key][index]) {
-            $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")");
+            $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")")
+                      .attr("href",quotes[key][index].user.url);
           }
         })
 
