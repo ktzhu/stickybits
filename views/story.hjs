@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="stylesheets/app.css" />
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,200|Titillium+Web:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/javascripts/foundation/foundation.reveal.js"></script>
   <script src="/javascripts/vendor/modernizr.js"></script>
 </head>
 <body>
