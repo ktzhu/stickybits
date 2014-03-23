@@ -14,7 +14,7 @@
   <script src="/javascripts/vendor/modernizr.js"></script>
 </head>
 <body>
-  <div class="fixed">
+  <!-- <div class="fixed"> -->
     <nav class="top-bar" data-topbar>
       <ul class="title-area">
         <li class="name">
@@ -37,7 +37,7 @@
         </ul>
       </section>
     </nav>
-  </div>
+  <!-- </div> -->
 
 
   <div class="row">
@@ -181,6 +181,7 @@
 <script src="/javascripts/vendor/jquery.js"></script>
 <script src="/javascripts/foundation.min.js"></script>
 <script src="/javascripts/tweets.js"></script>
+<script src="/javascripts/index.js"></script>
 <script>
   $(document).foundation();
 </script>

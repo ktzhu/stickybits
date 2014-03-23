@@ -69,13 +69,14 @@ $.getJSON('data', function (data) {
 })
 
 
+var template = $("aside.rail");
 var paintFaces = function (key) {
   console.log('paint faces')
   console.log('bah')
     // paint faces
-    var template = $("aside.rail");
 
     var highlights = $('.highlight')
+    console.log(highlights);
     for (var i = 0; i < highlights.length; i++) {
       if (highlights[i].dataset.phrase == key) {
         toAppend = template.clone();
