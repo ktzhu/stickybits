@@ -82,11 +82,29 @@ var paintFaces = function (key) {
         $(highlights[i]).parent().after(toAppend);
         $(toAppend).offset({ top: $(highlights[i]).offset().top - 50 });
 
-        var $profiles = $('.rail .profiles div');
-
+        var $profiles = $('.rail .profiles .faces');
         $profiles.each(function (index, profile) {
           if (quotes[key][index]) {
             $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")");
+          }
+        })
+
+        var $names = $('.rail .names .name')
+        $names.each(function (index, name) {
+          if (quotes[key][index]) {
+            name.innerHTML = quotes[key][index].user.name
+          }
+        })
+
+        var $countWrap = $('.rail .names .count-wrap')
+        var $count = $('.rail .names .count')
+        $count.each(function (index, count) {
+          if (quotes[key].length - 3 > 0) {
+            $($countWrap[index]).show()
+            count.innerHTML = quotes[key].length
+          } else {
+            $countWrap[index].innerHTML = 'tweeted about this.'
+            $($countWrap[index]).show()
           }
         })
       }

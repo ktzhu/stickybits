@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="stylesheets/normalize.css">
   <link rel="stylesheet" href="stylesheets/foundation.css">
   <link rel="stylesheet" href="stylesheets/app.css" />
-  <link rel="stylesheet" href="stylesheets/style.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,200|Titillium+Web:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
 
@@ -65,7 +64,7 @@
   </div>
 
   <div class="content row">
-    <div class="large-8 large-offset-2 columns">
+    <div class="large-6 large-offset-2 columns">
 
       <p>The Cisco Meraki office in Mission Bay, San Francisco, is 40 paces from the water, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. Twelve months earlier, in a deal meant to bring fresh edge to Cisco, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise — starting with the d&eacute;cor.</p>
 
@@ -136,13 +135,17 @@
 
     <aside class="rail">
       {{> list }}
-      <div class="following">
+      <div class="large-4 following">
         <div class="profiles">
-          <div></div>
-          <div></div>
-          <div class="count"><span>45</span></div>
+          <div class="faces"></div>
+          <div class="faces"></div>
+          <div class="faces"></div>
         </div>
-        <p><strong>Yuri Victor</strong>, <strong>Joey Marburger</strong> and 45 other people you follow on Twitter tweeted about this</p>
+        <p class="names">
+          <span class="name">Yuri Victor</span>,
+          <span class="name">Joey Marburger</span>,
+          <span class="name">Rebekah Monson</span>
+          <span class="count-wrap">and <span class="count">45</span> other friends tweeted about this</p></span>
         <!-- TODO: MAKE FONT AWESOME WORK -->
         <div class="social-share">
           <a class="fb">&#xf082;</a>

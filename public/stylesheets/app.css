@@ -116,3 +116,69 @@ h5 {
   margin: 2px 0 2px 0;
   font-style: italic;
 }
+
+.rail .names .name, .rail .names .count {
+  font-weight: bold;
+}
+
+.rail {
+  font-family: 'Titillium Web', sans-serif;
+  position: absolute;
+  left: 700px;
+}
+.rail .profiles .faces {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #999999;
+  display: inline-block;
+  overflow: hidden;
+  background-position: center;
+}
+.rail .person {
+  font-weight: bold;
+}
+.rail .social-share {
+  border: 1px solid #ffffff;
+  font-size: 0;
+  margin: 0px;
+}
+.rail .social-share li {
+  font-family: FontAwesome;
+  font-size: 20px;
+  border: 1px solid #999999;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #999999;
+}
+.rail .social-share li.fb:before {
+  content: "\f082 ";
+}
+.rail .social-share li.twitter:before {
+  content: "\f081 ";
+}
+.rail .social-share li.mail:before {
+  content: "\f045 ";
+}
+.rail .social-share li.more:before {
+  content: "\f055  More";
+}
+.rail .stats {
+  border-left: 1px solid #000000;
+  padding-left: 5px;
+}
+.rail .stats span:hover {
+  border-bottom: 1px dotted #000000;
+}
+.highlight {
+  background-color: #FFFF00;
+}
+.highlight.high {
+  background-color: #FF3300;
+}
+.rail .names .count-wrap {
+  display: none;
+}
