@@ -6,6 +6,17 @@ h1, h2, h3, h4, h5, h6 {
 h3.subheader {
   margin-bottom: 15px;
 }
+.gray{
+  color:#A6A6A6;
+}
+.label{
+  color: #757575;
+  font-size: 12px;
+  background: none;
+  text-transform: uppercase;
+  display:block;
+  margin-bottom: 0px;
+}
 
 p {
 	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -123,8 +134,6 @@ h5 {
 
 .rail {
   font-family: 'Titillium Web', sans-serif;
-  position: absolute;
-  left: 700px;
 }
 .rail .profiles .faces {
   color: #ffffff;

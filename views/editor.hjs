@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="stylesheets/app.css" />
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,200|Titillium+Web:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/javascripts/foundation.min.js"></script>
+  <script src="/javascripts/foundation/foundation.reveal.js"></script>
   <script src="/javascripts/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -17,14 +20,11 @@
     <nav class="top-bar" data-topbar>
       <ul class="title-area">
         <li class="name">
-          <h1><a href="/">sluice.js</a></h1>
+          <h1><a href="index.html">sluice.js</a></h1>
         </li>
       </ul>
       <section class="top-bar-section">
         <ul class="right">
-          <li><a href="/">USER VIEW</a></li>
-          <li class="divider"></li>
-          <li><a href="#"><span class="gray">EDITOR VIEW</span></a></li>
           <li class="divider"></li>
           <li><a href="#" data-reveal-id="aboutModal" data-reveal>About</a></li>
           <li class="divider"></li>
@@ -71,46 +71,7 @@
       <p>The Cisco Meraki office in Mission Bay, San Francisco, is 40 paces from the water, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. Twelve months earlier, in a deal meant to bring fresh edge to Cisco, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise — starting with the d&eacute;cor.</p>
 
       <p>Like Cisco, Meraki makes networking equipment — routers, wireless devices and the software to manage them, the sorts of products that even by tech standards have always been a little short on glamour. When Biswas and his co-founders left their graduate programs at M.I.T. in 2006 to work full time on Meraki — the name comes from a Greek word that means creating something with passion — they had few start-up competitors among their peers, who were making Twitter knockoffs. Six years later, their company had become a formidable player in the midsize router market. In a field notorious for opaque technical standards, Meraki emphasized simplicity and ease of use, while also managing to tick a lot of boxes on any Web 2.0 checklist: cloud-based, scalable, mobile-friendly. "They're buzzwords," Biswas said. "But they're also true." You don't need a SWAT team of technicians to set up a Meraki router; the system is intuitive and well designed, qualities that are especially appealing to a company like Cisco, which has dominated networking for three decades but has struggled in recent years to maintain its air of leading-edge inevitability.</p>
-      <p>The same dynamic is playing out throughout Silicon Valley, as companies like Intel post disappointing earnings reports and others like Snapchat turn down billion-dollar offers. The rapid consumer-ification of tech, led by Facebook and Google, has created a deep rift between old and new, hardware and software, enterprise companies that sell to other businesses and consumer companies that sell directly to the masses. On their face, these cleavages seem to be part of the natural order. As Biswas pointed out, <span class="highlight">There has always been a constant churn of new companies coming in, old companies dying out."</span></p>
-    </div>
-      <div class="large-2 large-offset-9 columns"> 
-        <aside class="rail">
-          <div class="following">
-            <span class="label">Influential</span>
-              <div class="profiles">
-                <div class="faces"></div>
-                <div class="faces"></div>
-                <div class="faces"></div>
-            <p class="names">
-            <span class="name">Miranda Mulligan</span>,
-            <br><span class="name">Joe Germuska</span>,
-            <span class="name">Kyle Ellis</span> 
-            <br>and <a href="">15 others.</a></p>
-            </div>    
-            <span class="label">Analytics</span> 
-                <strong>87</strong> tweets</span>
-                <br><strong>34</strong> tweets</span>
-                <br><strong>52</strong> retweets</span>
-                <br><strong>105</strong> favorites</span>
-              <!-- TODO: MAKE FONT AWESOME WORK -->
-              <div class="social-share">
-                <a class="fb">&#xf082;</a>
-                <a class="twitter"></a>
-                <a class="mail"></a>
-                <a class="more">MORE</a>
-              </div>
-            <!-- <div class="stats">
-              <div class="tweet-count"><span>1 Tweet</span></div>
-              <div class="retweet-count"><span>1 Retweet</span></div>
-              <div class="fav-count"><span>1 Fav Count</span></div>
-              <div class="reply-count"><span>1 Reply Count</span></div>
-            </div> -->
-        </aside>
-      </div>
-    </div>
-  </div>
-
-      <div class="content row">
+      <p>The same dynamic is playing out throughout Silicon Valley, as companies like Intel post disappointing earnings reports and others like Snapchat turn down billion-dollar offers. The rapid consumer-ification of tech, led by Facebook and Google, has created a deep rift between old and new, hardware and software, enterprise companies that sell to other businesses and consumer companies that sell directly to the masses. On their face, these cleavages seem to be part of the natural order. As Biswas pointed out, "There has always been a constant churn of new companies coming in, old companies dying out."</p>
       <p >But the churn feels more problematic now, in part because it deprives the new guard as well as the old — and by extension, it deprives us all. In pursuing the latest and the coolest, young engineers ignore opportunities in less-sexy areas of tech like semiconductors, data storage and networking, the products that form the foundation on which all of Web 2.0 rests. Without a good router to provide reliable Wi-Fi, your Dropbox file-sharing application is not going to sync; without Nvidia's graphics processing unit, your BuzzFeed GIF is not going to make anyone laugh. The talent — and there's a ton of it — flowing into Silicon Valley cares little about improving these infrastructural elements. What they care about is coming up with more web apps.</p>
       <p>As an enterprise start-up, Meraki has been impeded by its distance from the web scene. It simply does not have the same recognition as a consumer company whose products users (and potential recruits) interact with every day. "You say, "I work at Pinterest,' and people know what that is — they use Pinterest," Biswas said. "You tell them you work at Meraki, and they're a little more reserved. They're like, "What's that?' Once we explained our culture and our approach, we were able to hire great talent, but it's always a challenge." Since the acquisition, Biswas, who is 32, has fought to retain the spirit of the vanguard, but his struggle reveals an implicit fear — that young engineers might be willing to work at Meraki but not at Cisco (because it's too big and fusty), or that clients might be willing to buy from Cisco but not Meraki (because they don't really trust start-ups).</p>
       <p>What's cool? Who can be trusted? Why does one start-up go public, while another, which seems to do the same thing, fizzles? What logic, if any, pertains to where the money flows? These are the anxious questions that pervade Silicon Valley now, I think, more than ever — the vague sense of a frenzied bubble of app-making and an even vaguer dread that what we are making might not be that meaningful.</p>
@@ -174,20 +135,52 @@
   </div>
   <!--About modal-->
   <div id="aboutModal" class="reveal-modal" data-reveal>
-    <h3>About sluice.js</h3>
-    <p class="lead">Sluice is a prototype javascript app to track, surface and leverage social conversation around a story. When users come to a story, they can identify the specific ideas within a story that their friends discussed on social media. Sluice also provides media organizations an easy and efficient way to take advantage of the social media conversation that revolves around stories. Sluice can help a news org self-aggregate the stickiest ideas within a story and plan future coverage around hot topics and atomic details.</p>
-    <p><strong>Goal:</strong> Our goal for sluice at <a href="https://twitter.com/search?q=%23sndmakes&">#SNDmakes</a> was to build a prototype that showcased the intended functionality while working within a tight timeframe. Toggle between user and editor views to see how this might work.</p>
-    <p><strong>What we did:</strong> In our prototype's user view, we have pulled a small set of Twitter records to demonstrate how sluice might work. The editor view is static, but both serve as a proof of concept, a clear sign that both users and editorial teams can benefit from closing the social loop with more focus within a story.</p>
-    <p><strong>Future possibilities:</strong> Sluice could be developed into a more robust tool using natural language processing, more robust API integration and incorporating additional social media streams.
-    <p><strong>TeamPink is:</strong> <a href="https://twitter.com/huge_ma">Huge Ma</a>, <a href="https://twitter.com/rsm">Rebekah Monson</a>, <a href="https://twitter.com/cwilliams2k4">Cory Williams</a>, <a href="https://twitter.com/twong911">Tim Wong</a>, <a href="https://twitter.com/ktzhu">Katie Zhu</a>, <a href="https://twitter.com/nicolelzhu">Nicole Zhu</a></p>
+    <h2>About sluice.js</h2>
+    <p class="lead">Sluice is intended to track social conversation around a story. Media organizations are always looking for more efficient ways to take advantage of the social media conversation that revolves around their content, and Sluice can help an org self-aggregate and plan future coverage around hot topics and atomic details.</p>
+    <p>Our goal at <a href="https://twitter.com/search?q=%23sndmakes&">#SNDmakes</a> with Sluice.js was to build a prototype that showcased the intended functionality while working within the tight timeframe. We have a beautiful front end that can toggle back and forth between traditional reading mode and "Sluice Layer" where editorial can see the social heatmap on top of their content.</p>
+    <p>In our prototype, we have pulled 200 Twitter records instead of harnessing the full fire hose. This serves as a proof of concept, a clear sign that both editorial staffs and consumers can benefit from closing the social loop.</p>
+    <p>For future development, the logic behind the Twitter API calls would need to be retooled to provide more dynamic and informative results. Development would also need to center around Twitter authorization and mapping your Twitter follows in a meaningful fashion onto the social buzz-y portions/quotes/themes in the article itself.</p>
+    <p><strong>About TeamPink:</strong> <a href="https://twitter.com/huge_ma">Huge Ma</a>, <a href="https://twitter.com/rsm">Rebekah Monson</a>, <a href="https://twitter.com/cwilliams2k4">Cory Williams</a>, <a href="https://twitter.com/twong911">Tim Wong</a>, <a href="https://twitter.com/ktzhu">Katie Zhu</a>, <a href="https://twitter.com/nicolelzhu">Nicole Zhu</a></p>
+ 
     <a class="close-reveal-modal">&#215;</a>
   </div>
+<!--right rail template-->
+    <div class="row">
+      <div class="large-2 large-offset-9 columns"> 
+        <aside class="rail">
+          {{> list }}
+          <div class="following">
+            <div class="profiles">
+              <div class="faces"></div>
+              <div class="faces"></div>
+              <div class="faces"></div>
+            </div>
+            <p class="names">
+              <span class="name">Yuri Victor</span>,
+              <span class="name">Joey Marburger</span>,
+              <span class="name">Rebekah Monson</span>
+              <span class="count-wrap">and <span class="count">45</span> other friends tweeted about this</p></span>
+            <!-- TODO: MAKE FONT AWESOME WORK -->
+            <div class="social-share">
+              <a class="fb">&#xf082;</a>
+              <a class="twitter"></a>
+              <a class="mail"></a>
+              <a class="more">MORE</a>
+            </div>
+          </div>
+          <!-- <div class="stats">
+            <div class="tweet-count"><span>1 Tweet</span></div>
+            <div class="retweet-count"><span>1 Retweet</span></div>
+            <div class="fav-count"><span>1 Fav Count</span></div>
+            <div class="reply-count"><span>1 Reply Count</span></div>
+          </div> -->
+        </aside>
+      </div>
+    </div>
 
 <script src="/javascripts/vendor/jquery.js"></script>
 <script src="/javascripts/foundation.min.js"></script>
-<!--<script src="/javascripts/tweets.js"></script>-->
-<script>
-  $(document).foundation();
-</script>
+<script src="/javascripts/tweets.js"></script>
+
 </body>
 </html>
