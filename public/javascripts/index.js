@@ -20,7 +20,6 @@ $(function() {
     var $profiles = $('.profiles div');
     $profiles.each(function(index,profile) {
       $(profile).css("background-image","url("+twitterData[index+1].user.profile_background_image_url+")");
-      // console.log(index, profile)
     })
   });
 

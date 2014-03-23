@@ -1,9 +1,9 @@
 var grafs = document.getElementsByTagName('p')
 var phrases = {
+  notSoMuch: 'In start-up land, the young (..) makes a lot of cool apps. But great technology? Not so much.',
   sext: 'sexting app',
   tech: 'technology driven',
   time: 'this is our time',
-  notSoMuch: 'In start-up land, the young (..) makes a lot of cool apps. But great technology? Not so much.',
 }
 
 var quotes = {
@@ -81,7 +81,8 @@ var paintFaces = function (key) {
       if (highlights[i].dataset.phrase == key) {
         toAppend = template.clone();
         $(highlights[i]).parent().after(toAppend);
-        $(toAppend).offset({ top: $(highlights[i]).offset().top - 50 });
+        $(toAppend).offset({ top: $(highlights[i]).offset().top - 50 })
+                  .addClass(key);
 
         var $profiles = $('.rail .profiles .faces');
         $profiles.each(function (index, profile) {
@@ -107,7 +108,6 @@ var paintFaces = function (key) {
             $countWrap[index].innerHTML = 'tweeted about this.'
             $($countWrap[index]).show()
           }
-          console.log("OK?");
         })
       }
     }
