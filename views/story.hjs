@@ -142,78 +142,259 @@
                 <br><strong>5,034</strong> favorites</span>
           </div>
         </aside>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
         <aside class="rail">
           <div class="following">
               <span class="label">Influential</span>
               <div class="profiles">
-                <div class="faces"></div>
-                <div class="faces"></div>
-                <div class="faces"></div>
+                <div class="faces" id="miranda"></div>
+                <div class="faces" id="joe"></div>
+                <div class="faces" id="kyle"></div>
                 <p class="names">
                 <span class="name">Miranda Mulligan</span>,
                 <br><span class="name">Joe Germuska</span>,
                 <span class="name">Kyle Ellis</span> 
                 <br>and <a href="">15 others.</a></p>    
-                <span class="label">Analytics</span> 
+                <span class="label">Engagement</span> 
                 <strong>87</strong> tweets</span>
-                <br><strong>34</strong> tweets</span>
                 <br><strong>52</strong> retweets</span>
                 <br><strong>105</strong> favorites</span>
             </div>
           </div>
         </aside>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <aside class="rail">
           <div class="following">
               <span class="label">Influential</span>
               <div class="profiles">
-                <div class="faces"></div>
-                <div class="faces"></div>
-                <div class="faces"></div>
+                <div class="faces" id="cory"></div>
+                <div class="faces" id="tim"></div>
+                <div class="faces" id="katie"></div>
                 <p class="names">
                 <span class="name">Cory Williams</span>,
                 <br><span class="name">Tim Wong</span>,
                 <span class="name">Katie Zhu</span> 
                 <br>and <a href="">5 others.</a></p>    
-                <span class="label">Analytics</span> 
+                <span class="label">Engagement</span> 
                 <strong>50</strong> tweets</span>
                 <br><strong>27</strong> retweets</span>
                 <br><strong>43</strong> favorites</span>
             </div>
           </div>
         </aside>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <aside class="rail">
           <div class="following">
               <span class="label">Influential</span>
               <div class="profiles">
-                <div class="faces"></div>
-                <div class="faces"></div>
-                <div class="faces"></div>
+                <div class="faces" id="nicole"></div>
+                <div class="faces" id="rebekah"></div>
+                <div class="faces" id="huge"></div>
                 <p class="names">
-                <span class="name">Nicole Zhu</span>,
+                <span class="name" >Nicole Zhu</span>,
                 <br><span class="name">Rebekah Monson</span>,
                 <span class="name">Huge Ma</span> 
                 <br>and <a href="">9 others.</a></p>    
-                <span class="label">Analytics</span> 
+                <span class="label">Engagement</span> 
                 <strong>30</strong> tweets</span>
                 <br><strong>12</strong> retweets</span>
                 <br><strong>27</strong> favorites</span>
             </div>
           </div>
         </aside>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>        
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <aside class="rail">
           <div class="following">
               <span class="label">Influential</span>
               <div class="profiles">
-                <div class="faces"></div>
-                <div class="faces"></div>
-                <div class="faces"></div>
+                <div class="faces" id="zach"></div>
+                <div class="faces" id="yuri"></div>
+                <div class="faces" id="joey"></div>
                 <p class="names">
                 <span class="name">Zach Wise</span>,
                 <br><span class="name">Joey Marburger</span>,
                 <span class="name">Yuri Victor</span> 
                 <br>and <a href="">9 others.</a></p>    
-                <span class="label">Analytics</span> 
+                <span class="label">Engagement</span> 
                 <strong>30</strong> tweets</span>
                 <br><strong>12</strong> retweets</span>
                 <br><strong>27</strong> favorites</span>
