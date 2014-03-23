@@ -10,6 +10,7 @@ var fs = require('fs')
 var routes = require('./routes')
 var stories = require('./routes/story')
 var users = require('./routes/user')
+var editors = require('./routes/editor')
 
 var app = express()
 

@@ -7,24 +7,24 @@
   <title>sluice.js | #SNDMakes | Team Pink</title>
   <link rel="stylesheet" href="stylesheets/normalize.css">
   <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css" />
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,200|Titillium+Web:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheets/style.css" />
-  <link rel="stylesheet" href="stylesheets/app.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/javascripts/foundation.min.js"></script>
+  <script src="/javascripts/foundation/foundation.reveal.js"></script>
   <script src="/javascripts/vendor/modernizr.js"></script>
 </head>
 <body>
+  <div class="fixed">
     <nav class="top-bar" data-topbar>
       <ul class="title-area">
         <li class="name">
-          <h1><a href="/">sluice.js</a></h1>
+          <h1><a href="index.html">sluice.js</a></h1>
         </li>
       </ul>
       <section class="top-bar-section">
         <ul class="right">
-          <li><a href="#"><span class="gray">USER VIEW</a></li>
-          <li class="divider"></li>
-          <li><a href="story">EDITOR VIEW</a></li>
           <li class="divider"></li>
           <li><a href="#" data-reveal-id="aboutModal" data-reveal>About</a></li>
           <li class="divider"></li>
@@ -32,9 +32,11 @@
           <li class="divider"></li>
           <li><a href="https://www.facebook.com/societyfornewsdesign"><i class="fa fa-facebook-square fa-lg"></i></a></li>
           <li class="divider"></li>
+<!--           <li><a href="mailto:kevin@eversco.com"><i class="fa fa-envelope fa-lg"></i></a></li> -->
         </ul>
       </section>
     </nav>
+  </div>
 
 
   <div class="row">
@@ -55,11 +57,18 @@
   <div class="row">
     <div class="header-img large-12 columns">
   </div>
-  <div class="content">
-  <div class="row">
-    <div class="large-8 large-offset-1 columns stuff">
 
-      <p>In start-up land, the young (..) makes a lot of cool apps. But great technology? Not so much. The Cisco Meraki office in Mission Bay, San Francisco, is 40 paces from the water, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. Twelve months earlier, in a deal meant to bring fresh edge to Cisco, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise — starting with the d&eacute;cor.</p>
+  <div class="row">
+    <div class="large-12 columns img-caption">
+      <p>Boy: "When will you make something cool?"</p>
+      <p>Man: "When will you make something that matters?"</p>
+    </div>
+  </div>
+
+  <div class="content row">
+    <div class="large-8 large-offset-1 columns">
+
+      <p>The Cisco Meraki office in Mission Bay, San Francisco, is 40 paces from the water, and just as nice as Google's. On a clear winter day in late December, I sat in one of its conference rooms with a company spokeswoman on my right and Sanjit Biswas on my left, peering out through floor-to-ceiling glass. On the other side: brightly patterned furniture, murals and paneled wood, a well-stocked cafeteria, a deck with spectacular views of the bay. Twelve months earlier, in a deal meant to bring fresh edge to Cisco, the networking behemoth bought Meraki from Biswas and two co-founders for $1.2 billion. Now they were making good on their promise — starting with the d&eacute;cor.</p>
 
       <p>Like Cisco, Meraki makes networking equipment — routers, wireless devices and the software to manage them, the sorts of products that even by tech standards have always been a little short on glamour. When Biswas and his co-founders left their graduate programs at M.I.T. in 2006 to work full time on Meraki — the name comes from a Greek word that means creating something with passion — they had few start-up competitors among their peers, who were making Twitter knockoffs. Six years later, their company had become a formidable player in the midsize router market. In a field notorious for opaque technical standards, Meraki emphasized simplicity and ease of use, while also managing to tick a lot of boxes on any Web 2.0 checklist: cloud-based, scalable, mobile-friendly. "They're buzzwords," Biswas said. "But they're also true." You don't need a SWAT team of technicians to set up a Meraki router; the system is intuitive and well designed, qualities that are especially appealing to a company like Cisco, which has dominated networking for three decades but has struggled in recent years to maintain its air of leading-edge inevitability.</p>
       <p>The same dynamic is playing out throughout Silicon Valley, as companies like Intel post disappointing earnings reports and others like Snapchat turn down billion-dollar offers. The rapid consumer-ification of tech, led by Facebook and Google, has created a deep rift between old and new, hardware and software, enterprise companies that sell to other businesses and consumer companies that sell directly to the masses. On their face, these cleavages seem to be part of the natural order. As Biswas pointed out, "There has always been a constant churn of new companies coming in, old companies dying out."</p>
@@ -126,24 +135,25 @@
   </div>
   <!--About modal-->
   <div id="aboutModal" class="reveal-modal" data-reveal>
-    <h3>About sluice.js</h3>
-    <p class="lead">Sluice is a prototype javascript app to track, surface and leverage social conversation around a story. When users come to a piece, they can identify the specific ideas within that story that their friends are discussing on social media. Using a simple highlight, we're conveying to the user what topics are hot in a passively digestible form. Sluice also provides media organizations an easy and efficient way to take advantage of the social media conversation that revolves around stories. Sluice can help a news org self-aggregate the stickiest ideas and plan future coverage around trending topics and atomic details.</p>
-    <p class="lead">Close the loop. Get the social gold.</p>
-    <p><strong>Goal:</strong> Our goal for sluice at <a href="https://twitter.com/search?q=%23sndmakes&">#SNDmakes</a> was to build a prototype that showcased the intended functionality while working within a tight timeframe. Toggle between user and editor views to see how this might work.</p>
-    <p><strong>What we did:</strong> In our prototype's user view, we have pulled a small set of Twitter records to demonstrate how Sluice might work. The editor view is static, but both serve as a proof of concept, a clear sign that both users and editorial teams can benefit from closing the social loop with more focus within a story.</p>
-    <p><strong>Future possibilities:</strong> Sluice could be developed into a more robust tool using natural language processing, enhanced API integration and by incorporating additional social media streams. At the CMS level, that same natural language processing could build out even more granular taxonomy at the story level. By breaking down the story into conceptual chunks, that information could also be cross-referenced against our social data; users would get an even clearer idea of what parts of a story they might want to pay more attention to while editors, producers and reporters could use a more heat-mapped view to further extrapolate larger trends. </p>
-    <p><strong>TeamPink is:</strong> <a href="https://twitter.com/huge_ma">Huge Ma</a>, <a href="https://twitter.com/rsm">Rebekah Monson</a>, <a href="https://twitter.com/cwilliams2k4">Cory Williams</a>, <a href="https://twitter.com/twong911">Tim Wong</a>, <a href="https://twitter.com/ktzhu">Katie Zhu</a>, <a href="https://twitter.com/nicolelzhu">Nicole Zhu</a></p>
+    <h2>About sluice.js</h2>
+    <p class="lead">Sluice is intended to track social conversation around a story. Media organizations are always looking for more efficient ways to take advantage of the social media conversation that revolves around their content, and Sluice can help an org self-aggregate and plan future coverage around hot topics and atomic details.</p>
+    <p>Our goal at <a href="https://twitter.com/search?q=%23sndmakes&">#SNDmakes</a> with Sluice.js was to build a prototype that showcased the intended functionality while working within the tight timeframe. We have a beautiful front end that can toggle back and forth between traditional reading mode and "Sluice Layer" where editorial can see the social heatmap on top of their content.</p>
+    <p>In our prototype, we have pulled 200 Twitter records instead of harnessing the full fire hose. This serves as a proof of concept, a clear sign that both editorial staffs and consumers can benefit from closing the social loop.</p>
+    <p>For future development, the logic behind the Twitter API calls would need to be retooled to provide more dynamic and informative results. Development would also need to center around Twitter authorization and mapping your Twitter follows in a meaningful fashion onto the social buzz-y portions/quotes/themes in the article itself.</p>
+    <p><strong>About TeamPink:</strong> <a href="https://twitter.com/huge_ma">Huge Ma</a>, <a href="https://twitter.com/rsm">Rebekah Monson</a>, <a href="https://twitter.com/cwilliams2k4">Cory Williams</a>, <a href="https://twitter.com/twong911">Tim Wong</a>, <a href="https://twitter.com/ktzhu">Katie Zhu</a>, <a href="https://twitter.com/nicolelzhu">Nicole Zhu</a></p>
+ 
     <a class="close-reveal-modal">&#215;</a>
   </div>
 <!--right rail template-->
     <div class="row">
       <div class="large-2 large-offset-9 columns"> 
         <aside class="rail">
+          {{> list }}
           <div class="following">
             <div class="profiles">
-              <a class="faces"></a>
-              <a class="faces"></a>
-              <a class="faces"></a>
+              <div class="faces"></div>
+              <div class="faces"></div>
+              <div class="faces"></div>
             </div>
             <p class="names">
               <span class="name">Yuri Victor</span>,
@@ -167,13 +177,10 @@
         </aside>
       </div>
     </div>
-  </div>
+
 <script src="/javascripts/vendor/jquery.js"></script>
 <script src="/javascripts/foundation.min.js"></script>
 <script src="/javascripts/tweets.js"></script>
-<!-- <script src="/javascripts/index.js"></script> -->
-<script>
-  $(document).foundation();
-</script>
+
 </body>
 </html>

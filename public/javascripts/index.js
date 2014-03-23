@@ -10,6 +10,7 @@ $(function() {
       $(this).sibling('aside.rail').toggle();
     });
     $(toAppend).offset({ top: $highlight.offset().top - 50 });
+    console.log("highlighting", highlight)
   });
 
   $.ajax({
@@ -20,7 +21,6 @@ $(function() {
     }
   }).done(function(data) {
     var $profiles = $('.profiles div');
-
     $profiles.each(function(index,profile) {
       $(profile).css("background-image","url("+twitterData[index+1].user.profile_background_image_url+")");
     })

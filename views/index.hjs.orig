@@ -24,7 +24,13 @@
         <ul class="right">
           <li><a href="#"><span class="gray">USER VIEW</a></li>
           <li class="divider"></li>
+<<<<<<< HEAD
+          <li><a href="#" data-reveal-id="aboutModal">About Sluice</a></li>
+          <li class="divider"></li>
+          <li><a href="https://twitter.com/KevinPoist"><i class="fa fa-twitter fa-lg"></i></a></li>
+=======
           <li><a href="story">EDITOR VIEW</a></li>
+>>>>>>> blah
           <li class="divider"></li>
           <li><a href="#" data-reveal-id="aboutModal" data-reveal>About</a></li>
           <li class="divider"></li>
@@ -166,6 +172,31 @@
           </div> -->
         </aside>
       </div>
+<<<<<<< HEAD
+      <!-- <div class="stats">
+        <div class="tweet-count"><span>1 Tweet</span></div>
+        <div class="retweet-count"><span>1 Retweet</span></div>
+        <div class="fav-count"><span>1 Fav Count</span></div>
+        <div class="reply-count"><span>1 Reply Count</span></div>
+      </div> -->
+    </aside>
+
+  </div>
+  <div id="aboutModal" class="reveal-modal" data-reveal>
+      <h2>About sluice.js</h2>
+      <p class="lead">Sluice is intended to track social conversation around a story. Media organizations are always looking for more efficient ways to take advantage of the social media conversation that revolves around their content, and Sluice can help an org self-aggregate and plan future coverage around hot topics and atomic details.</p>
+      <p>Our goal at #SNDmakes with Sluice.js was to build a prototype that showcased the intended functionality while working within the tight timeframe. We have a beautiful front end that can toggle back and forth between traditional reading mode and "Sluice Layer" where editorial can see the social heatmap on top of their content.</p>
+      <p>In our prototype, we have pulled 200 Twitter records instead of harnessing the full fire hose. This serves as a proof of concept, a clear sign that both editorial staffs and consumers can benefit from closing the social loop.</p>
+      <p>For future development, the logic behind the Twitter API calls would need to be retooled to provide more dynamic and informative results. Development would also need to center around Twitter authorization and mapping your Twitter follows in a meaningful fashion onto the social buzz-y portions/quotes/themes in the article itself.</p>
+      <p><strong>About TeamPink:</strong> <a href="https://twitter.com/huge_ma">Huge Ma</a>, <a href="https://twitter.com/rsm">Rebekah Monson</a>, <a href="https://twitter.com/cwilliams2k4">Cory Williams</a>, <a href="https://twitter.com/twong911">Tim Wong</a>, <a href="https://twitter.com/ktzhu">Katie Zhu</a>, <a href="https://twitter.com/nicolelzhu">Nicole Zhu</a></p>
+   
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="/javascripts/foundation.min.js"></script>
+  <script src="/javascripts/foundation/foundation.reveal.js"></script>
+  <script src="/javascripts/index.js"></script>
+=======
     </div>
   </div>
 <script src="/javascripts/vendor/jquery.js"></script>
@@ -175,5 +206,6 @@
 <script>
   $(document).foundation();
 </script>
+>>>>>>> blah
 </body>
 </html>

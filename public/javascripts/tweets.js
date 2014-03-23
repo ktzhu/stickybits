@@ -1,23 +1,23 @@
 var grafs = document.getElementsByTagName('p')
 var phrases = {
+  notSoMuch: 'In start-up land, the young (..) makes a lot of cool apps. But great technology? Not so much.',
   sext: 'sexting app',
   tech: 'technology driven',
   time: 'this is our time',
-  matters: 'something that matters'
 }
 
 var quotes = {
   sext: [],
   tech: [],
   time: [],
-  matters: []
+  notSoMuch: []
 }
 
 var quoteGrafMap = {
   sext: {grafNum: 0, quoteIdx: 0},
   tech: {grafNum: 0, quoteIdx: 0},
   time: {grafNum: 0, quoteIdx: 0},
-  matters: {grafNum: 0, quoteIdx: 0}
+  notSoMuch: {grafNum: 0, quoteIdx: 0}
 }
 
 $.getJSON('data', function (data) {
@@ -31,8 +31,8 @@ $.getJSON('data', function (data) {
       quotes.sext.push(tweet)
     } else if (tweetText.toLowerCase().indexOf(phrases.tech) != -1) {
       quotes.tech.push(tweet)
-    } else if (tweetText.toLowerCase().indexOf(phrases.matters) != -1) {
-      quotes.matters.push(tweet)
+    } else if (tweetText.toLowerCase().indexOf(phrases.notSoMuch) != -1) {
+      quotes.notSoMuch.push(tweet)
     } else if (tweetText.toLowerCase().indexOf(phrases.time) != -1) {
       quotes.time.push(tweet)
     }
@@ -69,24 +69,45 @@ $.getJSON('data', function (data) {
 })
 
 
+var template = $("aside.rail");
 var paintFaces = function (key) {
   console.log('paint faces')
   console.log('bah')
     // paint faces
-    var template = $("aside.rail");
 
     var highlights = $('.highlight')
+    console.log(highlights);
     for (var i = 0; i < highlights.length; i++) {
       if (highlights[i].dataset.phrase == key) {
         toAppend = template.clone();
         $(highlights[i]).parent().after(toAppend);
-        $(toAppend).offset({ top: $(highlights[i]).offset().top - 50 });
+        $(toAppend).offset({ top: $(highlights[i]).offset().top - 50 })
+                  .addClass(key);
 
-        var $profiles = $('.rail .profiles div');
-
+        var $profiles = $('.rail .profiles .faces');
         $profiles.each(function (index, profile) {
           if (quotes[key][index]) {
-            $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")");
+            $(profile).css("background-image","url(" + quotes[key][index].user.profile_image_url+")")
+                      .attr("href",quotes[key][index].user.url);
+          }
+        })
+
+        var $names = $('.rail .names .name')
+        $names.each(function (index, name) {
+          if (quotes[key][index]) {
+            name.innerHTML = quotes[key][index].user.name
+          }
+        })
+
+        var $countWrap = $('.rail .names .count-wrap')
+        var $count =  $('.rail .names .count')
+        $count.each(function (index, count) {
+          if (quotes[key].length - 3 > 0) {
+            $($countWrap[index]).show()
+            count.innerHTML = quotes[key].length
+          } else {
+            $countWrap[index].innerHTML = 'tweeted about this.'
+            $($countWrap[index]).show()
           }
         })
       }

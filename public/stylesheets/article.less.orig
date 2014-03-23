@@ -10,8 +10,13 @@
 .rail {
   font-family: @titillium;
   position: absolute;
+<<<<<<< HEAD
+  left: 700px;
+  // display: none;
+=======
   width: 300px;
   left: 885px;
+>>>>>>> blah
 
   .profiles {
     text-align: center;

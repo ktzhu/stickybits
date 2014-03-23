@@ -456,8 +456,7 @@ textarea {
 select {
   width: 100%;
 }
-.row,
-body {
+.row {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -516,9 +515,7 @@ body {
   clear: both;
 }
 .column,
-.columns,
-.main,
-.rail {
+.columns {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
   width: 100%;
@@ -638,9 +635,7 @@ body {
     left: auto;
   }
   .column,
-  .columns,
-  .main,
-  .rail {
+  .columns {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
@@ -655,8 +650,7 @@ body {
   .small-3 {
     width: 25%;
   }
-  .small-4,
-  .rail {
+  .small-4 {
     width: 33.33333%;
   }
   .small-5 {
@@ -668,8 +662,7 @@ body {
   .small-7 {
     width: 58.33333%;
   }
-  .small-8,
-  .main {
+  .small-8 {
     width: 66.66667%;
   }
   .small-9 {
@@ -849,9 +842,7 @@ body {
     left: auto;
   }
   .column,
-  .columns,
-  .main,
-  .rail {
+  .columns {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
@@ -1154,9 +1145,7 @@ body {
     left: auto;
   }
   .column,
-  .columns,
-  .main,
-  .rail {
+  .columns {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
@@ -7981,12 +7970,8 @@ th.hide-for-touch {
 .fa-plus-square-o:before {
   content: "\f196";
 }
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-a {
-  color: #00B7FF;
+.stuff {
+  margin-top: 90px;
 }
 .main {
   font-family: 'Droid Serif', serif;
@@ -7994,7 +7979,11 @@ a {
 .rail {
   font-family: 'Titillium Web', sans-serif;
   position: absolute;
-  left: 700px;
+  width: 300px;
+  left: 885px;
+}
+.rail .profiles {
+  text-align: center;
 }
 .rail .profiles div {
   color: #ffffff;
