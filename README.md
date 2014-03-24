@@ -1,5 +1,5 @@
 #SNDmakes sluice
-See it: http://pacific-refuge-9000.herokuapp.com/
+*See it in action:* http://pacific-refuge-9000.herokuapp.com/
 
 Sluice is a prototype javascript app to track, surface and leverage social conversation around a story. When users come to a piece, they can identify the specific ideas within that story that their friends are discussing on social media. Using a simple highlight, we're conveying to the user what topics are hot in a passively digestible form. Sluice also provides media organizations an easy and efficient way to take advantage of the social media conversation that revolves around stories. Sluice can help a news org self-aggregate the stickiest ideas and plan future coverage around trending topics and atomic details.
 
